@@ -1,0 +1,8 @@
+import MainPageAsync from './ui/MainPage.async';
+
+export {
+    MainPageAsync as MainPage,
+};
+
+// Альтернативный вариант
+// export { MainPageAsync } from "./ui/MainPage"

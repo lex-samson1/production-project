@@ -12,6 +12,11 @@
         // Компилятор будет обрабатывать не только TS файлы, но и JS файлы
         "allowJs": true,
         "moduleResolution": "node",
+        // Для абсолютного импорта
+        "baseUrl": ".",
+        "paths": {
+          "*": ["./src/*"]         // Все импорты и экспорты абсолютные будут идти из папки src
+        },
         // esModuleInterop позволяет работать с пакетами, которые используют
         // common js как с обычными пакета с помощью import (require() module.export) = common js
         // import Moment from 'moment';
@@ -32,5 +37,10 @@
         "compilerOptions": {
             "module": "CommonJS"
         }
-    }
+    },
+    "include": [
+      "./config/jest/setupTests.ts",
+      "./src/**/*.ts",
+      "./src/**/*.tsx",
+    ]
 }
