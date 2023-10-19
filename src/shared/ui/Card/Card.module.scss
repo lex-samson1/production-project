@@ -4,9 +4,13 @@
 }
 
 .normal {
-    background: #d5d5d7;
+    background: var(--card-bg);
 }
 
 .outlined {
     border: 1px solid var(--primary-color);
+}
+
+.max {
+    width: 100%;
 }
