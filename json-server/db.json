@@ -592,7 +592,7 @@
       },
       "avatar": "https://api.dicebear.com/6.x/avataaars/svg?seed=Bear",
       "jsonSettings": {
-        "theme": "app_light_theme",
+        "theme": "app_orange_theme",
         "isArticlesPageWasOpened": true
       }
     },
